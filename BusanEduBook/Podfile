@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BusanEduBook' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BusanEduBook
+
+  pod 'CryptoSwift'
+
+  # FIREBASE
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+
+  # 이미지 비동기화
+  pod 'Nuke'
+
+  # 첨부파일을 선택해주세요
+  pod 'AFNetworking'
+
+  # 웹 이미지
+  pod 'SDWebImage', '5.0.0'
+
+  # 통신
+  pod 'Alamofire', '4.9.0'
+  
+  # 유튜브
+  pod 'YoutubePlayer-in-WKWebView', '0.3.0'
+  
+  # GIF 이미지
+  pod 'SwiftyGif'
+end

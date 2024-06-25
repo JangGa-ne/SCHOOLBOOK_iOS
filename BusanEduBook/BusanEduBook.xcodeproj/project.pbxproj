@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126189022547ECDF003DB657 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126189012547ECDF003DB657 /* GoogleService-Info.plist */; };
+		12BA1A7B25B951AC00123066 /* DETAIL_IMAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA1A7A25B951AC00123066 /* DETAIL_IMAGE.swift */; };
+		46D7E6E442F5501B0B604CE1 /* Pods_BusanEduBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DA2E28C2CD48F601687304 /* Pods_BusanEduBook.framework */; };
+		AC1E630F24F8858200700170 /* 이순신돋움체B.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC1E630D24F8857700700170 /* 이순신돋움체B.otf */; };
+		AC1E631024F8858600700170 /* 이순신돋움체L.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC1E630E24F8857700700170 /* 이순신돋움체L.otf */; };
+		AC1E631124F8858600700170 /* 이순신돋움체M.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC1E630C24F8857600700170 /* 이순신돋움체M.otf */; };
+		AC1E631D24F8FD6F00700170 /* 이순신돋움체M.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1E631A24F8FD6F00700170 /* 이순신돋움체M.otf */; };
+		AC1E631E24F8FD6F00700170 /* 이순신돋움체B.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1E631B24F8FD6F00700170 /* 이순신돋움체B.otf */; };
+		AC1E631F24F8FD6F00700170 /* 이순신돋움체L.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1E631C24F8FD6F00700170 /* 이순신돋움체L.otf */; };
+		AC2F19AC24D9205600CFDD44 /* LOGIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F19AB24D9205600CFDD44 /* LOGIN.swift */; };
+		AC2F19AE24D93BBF00CFDD44 /* INDIVIDUAL_CONTACT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F19AD24D93BBF00CFDD44 /* INDIVIDUAL_CONTACT.swift */; };
+		AC2F19B224DB8D1F00CFDD44 /* INDIVIDUAL_CONTACT_DETAIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F19B124DB8D1F00CFDD44 /* INDIVIDUAL_CONTACT_DETAIL.swift */; };
+		AC2F19B424DBDF4900CFDD44 /* MODIFY_CONTACT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F19B324DBDF4800CFDD44 /* MODIFY_CONTACT.swift */; };
+		AC3D28B225368456003ED401 /* PAGE_MENU.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D28B125368456003ED401 /* PAGE_MENU.swift */; };
+		AC66086824DBF32B0082B7C7 /* ADD_CONTACT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66086724DBF32B0082B7C7 /* ADD_CONTACT.swift */; };
+		AC84F86C24C51EE900AB03D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84F86B24C51EE900AB03D5 /* AppDelegate.swift */; };
+		AC84F87024C51EE900AB03D5 /* HOME.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84F86F24C51EE900AB03D5 /* HOME.swift */; };
+		AC84F87324C51EE900AB03D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC84F87124C51EE900AB03D5 /* Main.storyboard */; };
+		AC84F87524C51EEB00AB03D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC84F87424C51EEB00AB03D5 /* Assets.xcassets */; };
+		AC84F87824C51EEB00AB03D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC84F87624C51EEB00AB03D5 /* LaunchScreen.storyboard */; };
+		AC84F88224C5375E00AB03D5 /* CONTACT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84F88124C5375E00AB03D5 /* CONTACT.swift */; };
+		ACC52E5D24CA7413003D4023 /* LOADING.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52E5C24CA7413003D4023 /* LOADING.swift */; };
+		ACC52E5F24CAA4B8003D4023 /* CONTACT_DETAIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52E5E24CAA4B8003D4023 /* CONTACT_DETAIL.swift */; };
+		ACC52E6124CAA591003D4023 /* DETAIL_INFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52E6024CAA591003D4023 /* DETAIL_INFO.swift */; };
+		ACD488A724D3A22C0082C438 /* SCHOOL_INFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD488A624D3A22C0082C438 /* SCHOOL_INFO.swift */; };
+		ACD873A424C54F8100EC272E /* EXTENSION.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD873A324C54F8100EC272E /* EXTENSION.swift */; };
+		ACD873A724C68C4600EC272E /* DATA_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD873A624C68C4600EC272E /* DATA_API.swift */; };
+		ACD873A924C6B85600EC272E /* SEARCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD873A824C6B85600EC272E /* SEARCH.swift */; };
+		ACDF2EC924E65CF100260A8E /* MENU.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2EC824E65CF100260A8E /* MENU.swift */; };
+		ACDF2ECB24EB77B200260A8E /* SOSIK_N.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ECA24EB77B200260A8E /* SOSIK_N.swift */; };
+		ACDF2ECD24EB7B5B00260A8E /* SOSIK_TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ECC24EB7B5B00260A8E /* SOSIK_TC.swift */; };
+		ACDF2ED324EB7BC500260A8E /* IMAGE_DETAIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ECF24EB7BC400260A8E /* IMAGE_DETAIL.swift */; };
+		ACDF2ED424EB7BC500260A8E /* HWP_VIWER.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ED024EB7BC400260A8E /* HWP_VIWER.swift */; };
+		ACDF2ED524EB7BC500260A8E /* SOSIK_DETAIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ED124EB7BC500260A8E /* SOSIK_DETAIL.swift */; };
+		ACDF2ED624EB7BC500260A8E /* SOSIK_DETAIL_TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ED224EB7BC500260A8E /* SOSIK_DETAIL_TC.swift */; };
+		ACDF2ED824EBA16700260A8E /* GIF_IMAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2ED724EBA16700260A8E /* GIF_IMAGE.swift */; };
+		ACE8BD8C24EBC891008207FE /* loading_.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACE8BD8B24EBC890008207FE /* loading_.gif */; };
+		ACE8BD8E24ECAE44008207FE /* CONTAINER.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8BD8D24ECAE44008207FE /* CONTAINER.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		126189012547ECDF003DB657 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12BA1A7A25B951AC00123066 /* DETAIL_IMAGE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DETAIL_IMAGE.swift; sourceTree = "<group>"; };
+		2104DA21FC6B436FBC2F319B /* Pods-BusanEduBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusanEduBook.release.xcconfig"; path = "Target Support Files/Pods-BusanEduBook/Pods-BusanEduBook.release.xcconfig"; sourceTree = "<group>"; };
+		93DA2E28C2CD48F601687304 /* Pods_BusanEduBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusanEduBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1E630C24F8857600700170 /* 이순신돋움체M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체M.otf"; sourceTree = "<group>"; };
+		AC1E630D24F8857700700170 /* 이순신돋움체B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체B.otf"; sourceTree = "<group>"; };
+		AC1E630E24F8857700700170 /* 이순신돋움체L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체L.otf"; sourceTree = "<group>"; };
+		AC1E631624F8AFDD00700170 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		AC1E631824F8AFE700700170 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		AC1E631A24F8FD6F00700170 /* 이순신돋움체M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체M.otf"; path = "../../../Downloads/YiSunShin_Dotum_OTF (1)/이순신돋움체M.otf"; sourceTree = "<group>"; };
+		AC1E631B24F8FD6F00700170 /* 이순신돋움체B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체B.otf"; path = "../../../Downloads/YiSunShin_Dotum_OTF (1)/이순신돋움체B.otf"; sourceTree = "<group>"; };
+		AC1E631C24F8FD6F00700170 /* 이순신돋움체L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체L.otf"; path = "../../../Downloads/YiSunShin_Dotum_OTF (1)/이순신돋움체L.otf"; sourceTree = "<group>"; };
+		AC2F19AB24D9205600CFDD44 /* LOGIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOGIN.swift; sourceTree = "<group>"; };
+		AC2F19AD24D93BBF00CFDD44 /* INDIVIDUAL_CONTACT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INDIVIDUAL_CONTACT.swift; sourceTree = "<group>"; };
+		AC2F19B124DB8D1F00CFDD44 /* INDIVIDUAL_CONTACT_DETAIL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INDIVIDUAL_CONTACT_DETAIL.swift; sourceTree = "<group>"; };
+		AC2F19B324DBDF4800CFDD44 /* MODIFY_CONTACT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODIFY_CONTACT.swift; sourceTree = "<group>"; };
+		AC3D28B125368456003ED401 /* PAGE_MENU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAGE_MENU.swift; sourceTree = "<group>"; };
+		AC66086724DBF32B0082B7C7 /* ADD_CONTACT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADD_CONTACT.swift; sourceTree = "<group>"; };
+		AC66086A24E4CCF60082B7C7 /* 부산교육수첩 NEW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "부산교육수첩 NEW.entitlements"; sourceTree = "<group>"; };
+		AC84F86824C51EE900AB03D5 /* busan-edubook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "busan-edubook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC84F86B24C51EE900AB03D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC84F86F24C51EE900AB03D5 /* HOME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOME.swift; sourceTree = "<group>"; };
+		AC84F87224C51EE900AB03D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC84F87424C51EEB00AB03D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC84F87724C51EEB00AB03D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC84F87924C51EEB00AB03D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC84F88124C5375E00AB03D5 /* CONTACT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONTACT.swift; sourceTree = "<group>"; };
+		ACC52E5C24CA7413003D4023 /* LOADING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOADING.swift; sourceTree = "<group>"; };
+		ACC52E5E24CAA4B8003D4023 /* CONTACT_DETAIL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONTACT_DETAIL.swift; sourceTree = "<group>"; };
+		ACC52E6024CAA591003D4023 /* DETAIL_INFO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETAIL_INFO.swift; sourceTree = "<group>"; };
+		ACD488A624D3A22C0082C438 /* SCHOOL_INFO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHOOL_INFO.swift; sourceTree = "<group>"; };
+		ACD873A324C54F8100EC272E /* EXTENSION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTENSION.swift; sourceTree = "<group>"; };
+		ACD873A624C68C4600EC272E /* DATA_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA_API.swift; sourceTree = "<group>"; };
+		ACD873A824C6B85600EC272E /* SEARCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEARCH.swift; sourceTree = "<group>"; };
+		ACDF2EC824E65CF100260A8E /* MENU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MENU.swift; sourceTree = "<group>"; };
+		ACDF2ECA24EB77B200260A8E /* SOSIK_N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOSIK_N.swift; sourceTree = "<group>"; };
+		ACDF2ECC24EB7B5B00260A8E /* SOSIK_TC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOSIK_TC.swift; sourceTree = "<group>"; };
+		ACDF2ECF24EB7BC400260A8E /* IMAGE_DETAIL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMAGE_DETAIL.swift; sourceTree = "<group>"; };
+		ACDF2ED024EB7BC400260A8E /* HWP_VIWER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWP_VIWER.swift; sourceTree = "<group>"; };
+		ACDF2ED124EB7BC500260A8E /* SOSIK_DETAIL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOSIK_DETAIL.swift; sourceTree = "<group>"; };
+		ACDF2ED224EB7BC500260A8E /* SOSIK_DETAIL_TC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOSIK_DETAIL_TC.swift; sourceTree = "<group>"; };
+		ACDF2ED724EBA16700260A8E /* GIF_IMAGE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIF_IMAGE.swift; sourceTree = "<group>"; };
+		ACE8BD8B24EBC890008207FE /* loading_.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_.gif; sourceTree = "<group>"; };
+		ACE8BD8D24ECAE44008207FE /* CONTAINER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONTAINER.swift; sourceTree = "<group>"; };
+		CA3D23510DC5B52E13F61FF5 /* Pods-BusanEduBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusanEduBook.debug.xcconfig"; path = "Target Support Files/Pods-BusanEduBook/Pods-BusanEduBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC84F86524C51EE900AB03D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1E631D24F8FD6F00700170 /* 이순신돋움체M.otf in Frameworks */,
+				AC1E631E24F8FD6F00700170 /* 이순신돋움체B.otf in Frameworks */,
+				AC1E631F24F8FD6F00700170 /* 이순신돋움체L.otf in Frameworks */,
+				46D7E6E442F5501B0B604CE1 /* Pods_BusanEduBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C26BF3225F75B60255B0F79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D23510DC5B52E13F61FF5 /* Pods-BusanEduBook.debug.xcconfig */,
+				2104DA21FC6B436FBC2F319B /* Pods-BusanEduBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA25D5F976C50B13D9656CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E631B24F8FD6F00700170 /* 이순신돋움체B.otf */,
+				AC1E631C24F8FD6F00700170 /* 이순신돋움체L.otf */,
+				AC1E631A24F8FD6F00700170 /* 이순신돋움체M.otf */,
+				AC1E631824F8AFE700700170 /* UserNotifications.framework */,
+				AC1E631624F8AFDD00700170 /* PushKit.framework */,
+				93DA2E28C2CD48F601687304 /* Pods_BusanEduBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC84F85F24C51EE900AB03D5 = {
+			isa = PBXGroup;
+			children = (
+				AC84F86A24C51EE900AB03D5 /* BusanEduBook */,
+				AC84F86924C51EE900AB03D5 /* Products */,
+				2C26BF3225F75B60255B0F79 /* Pods */,
+				AA25D5F976C50B13D9656CFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC84F86924C51EE900AB03D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC84F86824C51EE900AB03D5 /* busan-edubook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC84F86A24C51EE900AB03D5 /* BusanEduBook */ = {
+			isa = PBXGroup;
+			children = (
+				AC66086A24E4CCF60082B7C7 /* 부산교육수첩 NEW.entitlements */,
+				126189012547ECDF003DB657 /* GoogleService-Info.plist */,
+				ACE8BD8F24F64EB8008207FE /* FONTS */,
+				ACD873A524C68C3300EC272E /* DATA */,
+				ACD488A524D2BFC60082C438 /* FUNCATION */,
+				AC84F88024C5372400AB03D5 /* MAIN_CENTER */,
+				ACDF2EC824E65CF100260A8E /* MENU.swift */,
+				ACD488A924D3AE5D0082C438 /* MAIN */,
+				ACD488A824D3AE540082C438 /* SUB */,
+				ACDF2ECE24EB7BAC00260A8E /* DETAIL */,
+			);
+			path = BusanEduBook;
+			sourceTree = "<group>";
+		};
+		AC84F88024C5372400AB03D5 /* MAIN_CENTER */ = {
+			isa = PBXGroup;
+			children = (
+				AC84F86B24C51EE900AB03D5 /* AppDelegate.swift */,
+				AC84F87624C51EEB00AB03D5 /* LaunchScreen.storyboard */,
+				AC84F87124C51EE900AB03D5 /* Main.storyboard */,
+				AC84F87424C51EEB00AB03D5 /* Assets.xcassets */,
+				ACC52E5C24CA7413003D4023 /* LOADING.swift */,
+				AC84F87924C51EEB00AB03D5 /* Info.plist */,
+			);
+			path = MAIN_CENTER;
+			sourceTree = "<group>";
+		};
+		ACD488A524D2BFC60082C438 /* FUNCATION */ = {
+			isa = PBXGroup;
+			children = (
+				ACD873A324C54F8100EC272E /* EXTENSION.swift */,
+				ACDF2ED724EBA16700260A8E /* GIF_IMAGE.swift */,
+				AC3D28B125368456003ED401 /* PAGE_MENU.swift */,
+				ACE8BD8D24ECAE44008207FE /* CONTAINER.swift */,
+				ACE8BD8B24EBC890008207FE /* loading_.gif */,
+			);
+			path = FUNCATION;
+			sourceTree = "<group>";
+		};
+		ACD488A824D3AE540082C438 /* SUB */ = {
+			isa = PBXGroup;
+			children = (
+				ACD873A824C6B85600EC272E /* SEARCH.swift */,
+				ACC52E5E24CAA4B8003D4023 /* CONTACT_DETAIL.swift */,
+				ACC52E6024CAA591003D4023 /* DETAIL_INFO.swift */,
+				AC2F19B124DB8D1F00CFDD44 /* INDIVIDUAL_CONTACT_DETAIL.swift */,
+				AC2F19B324DBDF4800CFDD44 /* MODIFY_CONTACT.swift */,
+				AC66086724DBF32B0082B7C7 /* ADD_CONTACT.swift */,
+			);
+			path = SUB;
+			sourceTree = "<group>";
+		};
+		ACD488A924D3AE5D0082C438 /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				AC84F88124C5375E00AB03D5 /* CONTACT.swift */,
+				ACD488A624D3A22C0082C438 /* SCHOOL_INFO.swift */,
+				AC84F86F24C51EE900AB03D5 /* HOME.swift */,
+				AC2F19AD24D93BBF00CFDD44 /* INDIVIDUAL_CONTACT.swift */,
+				ACDF2ECA24EB77B200260A8E /* SOSIK_N.swift */,
+				AC2F19AB24D9205600CFDD44 /* LOGIN.swift */,
+			);
+			path = MAIN;
+			sourceTree = "<group>";
+		};
+		ACD873A524C68C3300EC272E /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				ACD873A624C68C4600EC272E /* DATA_API.swift */,
+			);
+			path = DATA;
+			sourceTree = "<group>";
+		};
+		ACDF2ECE24EB7BAC00260A8E /* DETAIL */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF2ECC24EB7B5B00260A8E /* SOSIK_TC.swift */,
+				ACDF2ED024EB7BC400260A8E /* HWP_VIWER.swift */,
+				ACDF2ECF24EB7BC400260A8E /* IMAGE_DETAIL.swift */,
+				ACDF2ED224EB7BC500260A8E /* SOSIK_DETAIL_TC.swift */,
+				ACDF2ED124EB7BC500260A8E /* SOSIK_DETAIL.swift */,
+				12BA1A7A25B951AC00123066 /* DETAIL_IMAGE.swift */,
+			);
+			path = DETAIL;
+			sourceTree = "<group>";
+		};
+		ACE8BD8F24F64EB8008207FE /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E630D24F8857700700170 /* 이순신돋움체B.otf */,
+				AC1E630E24F8857700700170 /* 이순신돋움체L.otf */,
+				AC1E630C24F8857600700170 /* 이순신돋움체M.otf */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC84F86724C51EE900AB03D5 /* BusanEduBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC84F87C24C51EEB00AB03D5 /* Build configuration list for PBXNativeTarget "BusanEduBook" */;
+			buildPhases = (
+				F1AC80F45ED06A19304A90A8 /* [CP] Check Pods Manifest.lock */,
+				AC84F86424C51EE900AB03D5 /* Sources */,
+				AC84F86524C51EE900AB03D5 /* Frameworks */,
+				AC84F86624C51EE900AB03D5 /* Resources */,
+				5660FF46FD4DD3456D32A1F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusanEduBook;
+			productName = BusanEduBook;
+			productReference = AC84F86824C51EE900AB03D5 /* busan-edubook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC84F86024C51EE900AB03D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "장제현";
+				TargetAttributes = {
+					AC84F86724C51EE900AB03D5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = AC84F86324C51EE900AB03D5 /* Build configuration list for PBXProject "BusanEduBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC84F85F24C51EE900AB03D5;
+			productRefGroup = AC84F86924C51EE900AB03D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC84F86724C51EE900AB03D5 /* BusanEduBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC84F86624C51EE900AB03D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC84F87824C51EEB00AB03D5 /* LaunchScreen.storyboard in Resources */,
+				126189022547ECDF003DB657 /* GoogleService-Info.plist in Resources */,
+				ACE8BD8C24EBC891008207FE /* loading_.gif in Resources */,
+				AC1E630F24F8858200700170 /* 이순신돋움체B.otf in Resources */,
+				AC1E631024F8858600700170 /* 이순신돋움체L.otf in Resources */,
+				AC1E631124F8858600700170 /* 이순신돋움체M.otf in Resources */,
+				AC84F87524C51EEB00AB03D5 /* Assets.xcassets in Resources */,
+				AC84F87324C51EE900AB03D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5660FF46FD4DD3456D32A1F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusanEduBook/Pods-BusanEduBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusanEduBook/Pods-BusanEduBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusanEduBook/Pods-BusanEduBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AC80F45ED06A19304A90A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusanEduBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC84F86424C51EE900AB03D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF2ED424EB7BC500260A8E /* HWP_VIWER.swift in Sources */,
+				AC66086824DBF32B0082B7C7 /* ADD_CONTACT.swift in Sources */,
+				ACDF2ED824EBA16700260A8E /* GIF_IMAGE.swift in Sources */,
+				ACD873A724C68C4600EC272E /* DATA_API.swift in Sources */,
+				ACE8BD8E24ECAE44008207FE /* CONTAINER.swift in Sources */,
+				ACD873A924C6B85600EC272E /* SEARCH.swift in Sources */,
+				AC3D28B225368456003ED401 /* PAGE_MENU.swift in Sources */,
+				AC84F87024C51EE900AB03D5 /* HOME.swift in Sources */,
+				ACDF2ED624EB7BC500260A8E /* SOSIK_DETAIL_TC.swift in Sources */,
+				ACD488A724D3A22C0082C438 /* SCHOOL_INFO.swift in Sources */,
+				ACDF2ECB24EB77B200260A8E /* SOSIK_N.swift in Sources */,
+				ACC52E5D24CA7413003D4023 /* LOADING.swift in Sources */,
+				ACDF2ECD24EB7B5B00260A8E /* SOSIK_TC.swift in Sources */,
+				ACDF2ED524EB7BC500260A8E /* SOSIK_DETAIL.swift in Sources */,
+				AC84F86C24C51EE900AB03D5 /* AppDelegate.swift in Sources */,
+				ACDF2ED324EB7BC500260A8E /* IMAGE_DETAIL.swift in Sources */,
+				AC2F19AC24D9205600CFDD44 /* LOGIN.swift in Sources */,
+				ACC52E5F24CAA4B8003D4023 /* CONTACT_DETAIL.swift in Sources */,
+				AC84F88224C5375E00AB03D5 /* CONTACT.swift in Sources */,
+				AC2F19B224DB8D1F00CFDD44 /* INDIVIDUAL_CONTACT_DETAIL.swift in Sources */,
+				AC2F19AE24D93BBF00CFDD44 /* INDIVIDUAL_CONTACT.swift in Sources */,
+				ACDF2EC924E65CF100260A8E /* MENU.swift in Sources */,
+				ACC52E6124CAA591003D4023 /* DETAIL_INFO.swift in Sources */,
+				AC2F19B424DBDF4900CFDD44 /* MODIFY_CONTACT.swift in Sources */,
+				12BA1A7B25B951AC00123066 /* DETAIL_IMAGE.swift in Sources */,
+				ACD873A424C54F8100EC272E /* EXTENSION.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC84F87124C51EE900AB03D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC84F87224C51EE900AB03D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC84F87624C51EEB00AB03D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC84F87724C51EEB00AB03D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC84F87A24C51EEB00AB03D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC84F87B24C51EEB00AB03D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC84F87D24C51EEB00AB03D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3D23510DC5B52E13F61FF5 /* Pods-BusanEduBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BusanEduBook/부산교육수첩 NEW.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_TEAM = Z2JQBSTC7A;
+				INFOPLIST_FILE = BusanEduBook/MAIN_CENTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = a.edubook;
+				PRODUCT_NAME = "busan-edubook";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC84F87E24C51EEB00AB03D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2104DA21FC6B436FBC2F319B /* Pods-BusanEduBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BusanEduBook/부산교육수첩 NEW.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_TEAM = Z2JQBSTC7A;
+				INFOPLIST_FILE = BusanEduBook/MAIN_CENTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = a.edubook;
+				PRODUCT_NAME = "busan-edubook";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC84F86324C51EE900AB03D5 /* Build configuration list for PBXProject "BusanEduBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC84F87A24C51EEB00AB03D5 /* Debug */,
+				AC84F87B24C51EEB00AB03D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC84F87C24C51EEB00AB03D5 /* Build configuration list for PBXNativeTarget "BusanEduBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC84F87D24C51EEB00AB03D5 /* Debug */,
+				AC84F87E24C51EEB00AB03D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC84F86024C51EE900AB03D5 /* Project object */;
+}
